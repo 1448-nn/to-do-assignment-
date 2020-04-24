@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <title>To-do</title>
+</head>
+<body style="background-color: black;">
+<div class="big-box">
+    <div class="container">
+        <h1 >To do:</h1>
+        
+            <table class="table table-striped">
+            <tr>
+                <td>Wake up</td>
+                <td><button class="btn" id="btn"><input type="image" id="image" alt="OK" src="white-tick-7.jpg" height="35px"></button></td>
+                <td><button class="btn btn-danger" id="del">x</button></td>
+            </tr>
+            <tr>
+                <td>Eat breakfast</td>
+                <td><button class="btn" id="btn"><input type="image" id="image" alt="OK" src="white-tick-7.jpg" height="35px"></button></td>
+                <td><button class="btn btn-danger" id="del">x</button></td>
+            </tr>
+            <tr>
+                <td>Go to work</td>
+                <td><button class="btn" id="btn"><input type="image" id="image" alt="OK" src="white-tick-7.jpg" height="35px"></button></td>
+                <td><button class="btn btn-danger" id="del">x</button></td>
+            </tr>
+            </table>
+             <table>
+                 <tr>
+            <td><div class="form-group">
+                <label for="Task"><h4><strong>Task</strong></h4></label></div></td>
+                <td><div class="form-group"><input type="text" class="form-control" id="frm" placeholder="What do you need to do?"/></div></td>
+               </tr>
+               </table>
+            
+            <div">
+                <button class="btn btn-primary" id="add-btn">Save item</button>
+                </div>
+    </div>
+    
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
